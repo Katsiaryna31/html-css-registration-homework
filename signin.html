@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration form</title>
+    <link rel="preload" href="assets/fonts/ProximaNova-Light.ttf" as="font" crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/ProximaNova-Regular.ttf" as="font" crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/ProximaNovaT-Thin.ttf" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <section class="registration-form">
+      <div class="form-buttons">
+        <a class="form-button form-button--active" href="signin.html">Sign in</a>
+        <a class="form-button" href="index.html">Sign up</a>
+      </div>
+      <form class="form-sign--up" action="https://reqres.in/api/register" method="POST" name="Registration form">
+        <input class="form-input" type="email" id="email" name="email" placeholder="Email ID" required>
+        <input class="form-input form-input--last" type="password" id="userPassword" name="Password" placeholder="Password" required>
+        <label for="agreement" class="form-label"><input type="checkbox" id="agreement" checked>
+          Keep me logged in
+        </label>
+        <input class="form-submit" type="submit" value="Login">
+        <a class="forgot-password">Forgot password?</a>
+      </form>
+    </section>
+  </body>
+</html>
