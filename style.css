@@ -117,3 +117,25 @@ h1 {
     display: inline-block;
     margin: 27px auto 40px;
 }
+
+@media screen and (max-width: 420px) {
+    body {
+        padding-top: 30px;
+        margin: 0;
+    }
+
+    .registration-form {
+        padding: 45px 20px 55px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        padding-top: 5px;
+        
+    }
+
+    .registration-form {
+        padding: 25px 5px 25px;
+    }
+}
