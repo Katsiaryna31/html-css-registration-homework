@@ -60,7 +60,8 @@ h1 {
     border-bottom: 3px solid #ffab1a;
 }
 
-.form-sign--up {
+.form-sign--up,
+.form-sign--in {
     display: flex;
     flex-direction: column;
 }
@@ -103,6 +104,10 @@ h1 {
     padding: 10px 30px;
     box-sizing: border-box;
     margin: 0 auto;
+}
+
+.form-submit:focus {
+    outline: none;
 }
 
 .forgot-password {
