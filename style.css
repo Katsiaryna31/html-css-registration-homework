@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('assets/fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Thin';
+    src: url('assets/fonts/ProximaNovaT-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('assets/fonts/ProximaNova-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: url('assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+}
+
+h1 {
+    display: none;
+}
+
+.registration-form {
+    width: 300px;
+    padding: 45px 40px 55px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow:-4px 13px 50px 0px rgba(0,0,0,0.69);
+    -webkit-box-shadow:-4px 13px 50px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow:-4px 13px 50px 0px rgba(0,0,0,0.69);
+}
+
+.form-buttons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.form-button {
+    font-family: 'Proxima Nova Regular', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.form-button--active {
+    border-bottom: 3px solid #ffab1a;
+}
+
+.form-sign--up,
+.form-sign--in {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fbfbfb;
+    color: #ffffff;
+    font-size: 17.5px;
+    font-family: 'Proxima Nova Thin', sans-serif;
+    margin-top: 67px;
+}
+
+.form-input::placeholder {
+    color: #ffffff;
+    opacity: 1; 
+}
+
+.form-input--last {
+    margin-bottom: 45px;
+}
+
+.form-label {
+    font-family: 'Proxima Nova Light', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.form-submit {
+    font-family: 'Proxima Nova Regular', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #f57f17;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.form-submit:focus {
+    outline: none;
+}
+
+.forgot-password {
+    font-family: 'Proxima Nova Regular', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    display: inline-block;
+    margin: 27px auto 40px;
+}
